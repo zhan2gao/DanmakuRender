@@ -1,3 +1,7 @@
+# 说明
+本仓库为个人学习使用。
+需要使用DanmakuRender工具请访问原作者仓库：https://github.com/SmallPeaches/DanmakuRender
+
 # 录制直播
 创建DMR-xxx.yml后，运行python main.py即可。
 # 仅录制直播的音频
