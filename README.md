@@ -1,3 +1,8 @@
+# 录制直播
+创建DMR-xxx.yml后，运行python main.py即可。
+# 仅录制直播的音频
+创建DMR-xxx.yml后，运行--global_config configs\global-音频.yml，区别是ffmpeg_stream_args多了'-vn'  # 禁用视频流 这个参数
+
 # DanmakuRender-5 —— 一个录制带弹幕直播的小工具（版本5）
 结合网络上的代码写的一个能录制带弹幕直播流的小工具，主要用来录制包含弹幕的视频流。     
 - 可以录制纯净直播流和弹幕，并且支持在本地预览带弹幕直播流。
