@@ -2,10 +2,16 @@
 本仓库为个人学习使用。
 需要使用DanmakuRender工具请访问原作者仓库：https://github.com/SmallPeaches/DanmakuRender
 
+# 环境配置
+ubuntu:
+sudo apt-get install ffmpeg
+pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 # 录制直播
 创建DMR-xxx.yml后，运行python main.py即可。
 # 仅录制直播的音频
-创建DMR-xxx.yml后，运行--global_config configs\global-音频.yml，区别是ffmpeg_stream_args多了'-vn'  # 禁用视频流 这个参数
+创建DMR-xxx.yml后，运行python main.py --global_config configs\global-音频.yml，区别是ffmpeg_stream_args多了'-vn'  # 禁用视频流 这个参数
+ubuntu上使用--global_config configs/global-音频.yml
 
 # DanmakuRender-5 —— 一个录制带弹幕直播的小工具（版本5）
 结合网络上的代码写的一个能录制带弹幕直播流的小工具，主要用来录制包含弹幕的视频流。     
